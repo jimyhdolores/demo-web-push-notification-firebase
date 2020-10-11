@@ -1,27 +1,23 @@
-# DemoWebPushNotificationAngular
+# Demo We bPush Notification Angular
+Este proyecto no usa @angular/fire debido a que muchos usuarios tiene problemas respecto a las versiones del angular, angular Firebase y NodeJS;
+Estoy usando solola librería que proporciona Firebase .
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
+https://www.npmjs.com/package/firebase
 
-## Development server
+# Recomendaciones
+Si tienes problemas al instalar una versión determinada de Firebase y ves el error "node-pre-gyp find pyton" ejecuta el siguiente comando en una consola en modo administrador:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+npm install -global --production windows-build-tools
 
-## Code scaffolding
+Si el problema persiste es muy probable que sea por la versión de NodeJS que tienes, un truco para poder realizar la descarga e instalación es usar NVM, nvm es un administrador de versiones de Node JS, si tienes NodeJS ya instalado se recomienda desinstalar y eliminar todo los archivos y carpetas respecto a esa instalación, una vez realizado se procede a realizar la instalación de NVM, para mayor información les dejo el link (en mi caso uso Windows):
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+https://docs.microsoft.com/en-us/windows/nodejs/setup-on-windows
 
-## Build
+Si les gustaria que haga un video de como usar correctamene NVM me pueden escribir a jimmyhd_19@hotmail.com.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+# Pasos a seguir
 
-## Running unit tests
+Primero deben crearse una cuenta en google y kuego dirigirse a la consola de Firebase, ahi tienen que crear su proyecto y se les brindara ciertas claves para que lo incorporen en su proyecto.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Una vez creada, ps mira el video xd Si te gusta el video dale like, suscribete y comparte, de esa manera me estas ayudando a generar más contenido, gracias.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

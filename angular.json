@@ -21,10 +21,12 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/firebase-messaging-sw.js"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/nes.css/css/nes.min.css"
             ],
             "scripts": []
           },
