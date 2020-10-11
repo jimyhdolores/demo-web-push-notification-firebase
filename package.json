@@ -19,7 +19,6 @@
     "@angular/platform-browser": "~10.1.2",
     "@angular/platform-browser-dynamic": "~10.1.2",
     "@angular/router": "~10.1.2",
-    "firebase": "^7.23.0",
     "nes.css": "^2.3.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
