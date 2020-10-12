@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PushNotificationService } from './services/push-notification.service';
 
 @Component({
   selector: 'app-root',
@@ -8,10 +9,16 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
   mesaggeReceived = '';
 
-  constructor() {
-
+  constructor(private notificacion: PushNotificationService) {
+    notificacion.requestPermission().then(token => {
+      console.log(token);
+    })
   }
-  ngOnInit(): void {
 
+  ngOnInit(): void {
+    this.notificacion.receiveMessage().subscribe(payload => {
+      console.log(payload);
+      this.mesaggeReceived = payload.notification.title;
+    })
   }
 }
