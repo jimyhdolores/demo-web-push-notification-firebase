@@ -21,3 +21,4 @@ Primero deben crearse una cuenta en google y kuego dirigirse a la consola de Fir
 
 Una vez creada, ps mira el video xd Si te gusta el video dale like, suscribete y comparte, de esa manera me estas ayudando a generar más contenido, gracias.
 
+https://youtu.be/sgmkJs2nCSU
